@@ -82,4 +82,31 @@
 14. Colaborador a asanzdiego
 
     ![Nuevo colaborador] (https://github.com/aliciaarjona/campusciff/blob/master/8.png)
-    ![Nuevo colaborador] (https://github.com/aliciaarjona/campusciff/blob/master/9.png)    
+    ![Nuevo colaborador] (https://github.com/aliciaarjona/campusciff/blob/master/9.png)   
+
+# EJERCICIO 2
+
+1. - Crear una rama
+
+   git branch v0.2
+   
+   - Posicionamiento a esa rama
+
+   git checkout v0.2
+Switched to branch 'v0.2'
+
+2 y 3.  Añadir fichero a esta rama
+
+    touch 2.txt
+    git add .
+    git commit -m "añadimos fichero 2.txt"
+
+4. Subir cambios al repositorio remoto
+
+   git push origin v0.2
+
+   ![Nuevo colaborador] (https://github.com/aliciaarjona/campusciff/blob/master/10.png)
+
+5. Merge directo
+
+   git checkout master 
