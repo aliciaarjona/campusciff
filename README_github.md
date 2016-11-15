@@ -105,8 +105,75 @@ Switched to branch 'v0.2'
 
    git push origin v0.2
 
-   ![Nuevo colaborador] (https://github.com/aliciaarjona/campusciff/blob/master/10.png)
+   ![Branch] (https://github.com/aliciaarjona/campusciff/blob/master/10.png)
 
 5. Merge directo
 
    git checkout master 
+6, 7 y 8. Merge con conflicto
+    
+   vi 1.txt
+   git add .
+   git commit -m "hola en 1.txt"
+   git checkout v0.2
+   git add . 
+   git commit -m "adios en 1.txt" 
+   git checkout master
+   git merge v0.2
+    Auto-merging 1.txt
+    CONFLICT (content): Merge conflict in 1.txt
+    Automatic merge failed; fix conflicts and then commit the result.
+
+9. listado con merge y no merge
+
+   git branch --merged
+    * master
+   git branch --no-merged
+    v0.2
+
+10. Arreglar conflicto 
+
+     Abrimos 1.txt y borramos lineas y dejamos hola y adios
+     vi 1.xtx
+     git add .
+     git commit -m "cambios en 1.txt"
+     
+11. Borrar rama
+
+    git tag v0.2
+    git branch -d v0.2
+        Deleted branch v0.2 (was 3ffc588).
+        
+12. Listado de cambios
+
+    git list 
+       *   5aeec88 (HEAD -> master) cambios en 1.txt
+    |\
+    | * 3ffc588 adios en 1.txt
+    * | 444dec3 hola en 1.txt
+    |/
+    * b135ff8 (origin/master, origin/HEAD) update README_github.md
+    * 77e8893 (origin/v0.2) añadimos fichero 2.txt
+    * ed3c325 Update README_github.md
+    * 407d82e Update README_github.md
+    * a8f3a14 Add files via upload
+    * bbfb0db Update and rename README.md to README_github.md
+    * 7bdd8aa (tag: v0.1) añado 1.txt
+    * b07ffd0 ignoro carpeta y fichero privada
+    * 63a6f7c inicio ejercicio
+    
+13 y 14. Crear una organización
+
+    ![Organización] (https://github.com/aliciaarjona/campusciff/blob/master/11.png)
+    ![Organización] (https://github.com/aliciaarjona/campusciff/blob/master/12.png)
+    
+15. - En github he creado un repositorio "Customize pinned repositories" -> New llamado
+    aliciaarjona.github.io.
+    
+    - Lo he clonado a mi local y ahi he creado un fichero index.html 
+    
+    MacBook-Pro-de-Alicia:GIT AliciaArjona$ cd aliciaarjona.github.io/
+    MacBook-Pro-de-Alicia:aliciaarjona.github.io AliciaArjona$ echo "Hello World" > index.html
+    MacBook-Pro-de-Alicia:aliciaarjona.github.io AliciaArjona$ git add --all
+    MacBook-Pro-de-Alicia:aliciaarjona.github.io AliciaArjona$ git commit -m "Initial commit"
+    MacBook-Pro-de-Alicia:aliciaarjona.github.io AliciaArjona$ git push -u origin master
