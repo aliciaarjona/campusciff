@@ -2,8 +2,8 @@
 
 1. Crear repositorio
 
-	![Repositorio] (/Users/AliciaArjona/Desktop/MASTER/CURSO_NIVELACION/ENTREGA_EJER/GIT/campusciff/1.png)
-	![Repositorio] (/Users/AliciaArjona/Desktop/MASTER/CURSO_NIVELACION/ENTREGA_EJER/GIT/campusciff/2.png)
+	![Repositorio] (https://github.com/aliciaarjona/campusciff/blob/master/1.png)
+	![Repositorio] (https://github.com/aliciaarjona/campusciff/blob/master/2.png)
 
 
 2. Clonar
