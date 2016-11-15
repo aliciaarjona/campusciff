@@ -64,14 +64,14 @@
     
 11. Cuenta GitHub
 
-    ![Foto] (/Users/AliciaArjona/Desktop/MASTER/CURSO_NIVELACION/ENTREGA_EJER/GIT/campusciff/3.png)
-    ![Autentficación] (/Users/AliciaArjona/Desktop/MASTER/CURSO_NIVELACION/ENTREGA_EJER/GIT/campusciff/4.png)
-    ![Autentficación] (/Users/AliciaArjona/Desktop/MASTER/CURSO_NIVELACION/ENTREGA_EJER/GIT/campusciff/5.png)
-    ![Llave] (/Users/AliciaArjona/Desktop/MASTER/CURSO_NIVELACION/ENTREGA_EJER/GIT/campusciff/6.png)
+    ![Foto] (https://github.com/aliciaarjona/campusciff/blob/master/3.png)
+    ![Autentficación] (https://github.com/aliciaarjona/campusciff/blob/master/4.png)
+    ![Autentficación] (https://github.com/aliciaarjona/campusciff/blob/master/5.png)
+    ![Llave] (https://github.com/aliciaarjona/campusciff/blob/master/6.png)
     
 12. rhuergo 
 
-    ![Compañero] (/Users/AliciaArjona/Desktop/MASTER/CURSO_NIVELACION/ENTREGA_EJER/GIT/campusciff/7.png)
+    ![Compañero] (https://github.com/aliciaarjona/campusciff/blob/master/7.png)
 
 13. Crear tabla
 
@@ -81,5 +81,5 @@
     
 14. Colaborador a asanzdiego
 
-    ![Nuevo colaborador] (/Users/AliciaArjona/Desktop/MASTER/CURSO_NIVELACION/ENTREGA_EJER/GIT/campusciff/8.png)
-    ![Nuevo colaborador] (/Users/AliciaArjona/Desktop/MASTER/CURSO_NIVELACION/ENTREGA_EJER/GIT/campusciff/9.png)    
+    ![Nuevo colaborador] (https://github.com/aliciaarjona/campusciff/blob/master/8.png)
+    ![Nuevo colaborador] (https://github.com/aliciaarjona/campusciff/blob/master/9.png)    
